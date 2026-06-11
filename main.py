@@ -1,16 +1,23 @@
-# This is a sample Python script.
+import requests
+import pandas as pd
+from io import StringIO
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+url = "https://www.bv-brc.org/api/genome_amr/?eq(taxon_id,1280)&eq(evidence,Laboratory%20Method)&limit(50000)"
+headers = {"Accept": "text/csv"}
 
+response = requests.get(url, headers=headers)
+df = pd.read_csv(StringIO(response.text))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# Filter to methicillin, drop Intermediate (keep binary classification clean)
+methicillin_df = df[df['Antibiotic'] == 'methicillin'].copy()
+methicillin_df = methicillin_df[methicillin_df['Resistant Phenotype'].isin(['Resistant', 'Susceptible'])]
 
+print("Shape:", methicillin_df.shape)
+print("\nClass balance:")
+print(methicillin_df['Resistant Phenotype'].value_counts())
+print("\nSample genome IDs:")
+print(methicillin_df['Genome ID'].head(10).tolist())
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# Save it
+methicillin_df.to_csv("methicillin_labels.csv", index=False)
+print("\nSaved methicillin_labels.csv")
