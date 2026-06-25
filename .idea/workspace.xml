@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5a043cf-c5c1-403b-a6e6-378116f29574" name="Changes" comment="XGboost created and run. Match log regression results 06242026">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnitioticResistancePredictor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AnitioticResistancePredictor.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="a5a043cf-c5c1-403b-a6e6-378116f29574" name="Changes" comment="SHAP run, graphs present 06242026" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781205571707</updated>
-      <workItem from="1781205572702" duration="25587000" />
+      <workItem from="1781205572702" duration="26060000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -174,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782347522588</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="SHAP run, graphs present 06242026">
+      <option name="closed" value="true" />
+      <created>1782353687021</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1782353687021</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +194,8 @@
     <MESSAGE value="Train/Test split done 062126" />
     <MESSAGE value="Log regression run, added visual of feature importance 062126" />
     <MESSAGE value="XGboost created and run. Match log regression results 06242026" />
-    <option name="LAST_COMMIT_MESSAGE" value="XGboost created and run. Match log regression results 06242026" />
+    <MESSAGE value="SHAP run, graphs present 06242026" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHAP run, graphs present 06242026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
