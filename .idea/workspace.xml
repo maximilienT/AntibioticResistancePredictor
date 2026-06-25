@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5a043cf-c5c1-403b-a6e6-378116f29574" name="Changes" comment="Train/Test split done 062126">
+    <list default="true" id="a5a043cf-c5c1-403b-a6e6-378116f29574" name="Changes" comment="Log regression run, added visual of feature importance 062126">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AnitioticResistancePredictor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AnitioticResistancePredictor.ipynb" afterDir="false" />
     </list>
@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781205571707</updated>
-      <workItem from="1781205572702" duration="19471000" />
+      <workItem from="1781205572702" duration="21916000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -150,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782082872683</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Log regression run, added visual of feature importance 062126">
+      <option name="closed" value="true" />
+      <created>1782084571681</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1782084571681</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +171,8 @@
     <MESSAGE value="Cleaned Genes table 062126" />
     <MESSAGE value="Feature Matrix done 062126" />
     <MESSAGE value="Train/Test split done 062126" />
-    <option name="LAST_COMMIT_MESSAGE" value="Train/Test split done 062126" />
+    <MESSAGE value="Log regression run, added visual of feature importance 062126" />
+    <option name="LAST_COMMIT_MESSAGE" value="Log regression run, added visual of feature importance 062126" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$main.coverage" NAME="main Coverage Results" MODIFIED="1781207340402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
