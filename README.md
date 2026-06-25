@@ -40,7 +40,7 @@ Actual Susceptible      115                    0
 Actual Resistant         12                   90
 ```
 
-Notably, **zero false positives**;<img width="1075" height="420" alt="Screenshot 2026-06-24 at 7 18 58 PM" src="https://github.com/user-attachments/assets/9c8531ed-fc67-43b7-aec0-4f086025f38e" />
+Notably, **zero false positives**
  the model never incorrectly flagged a susceptible genome as resistant. All 12 errors were false negatives (resistant genomes predicted susceptible), which is the more clinically concerning error type, since it could lead to under-treatment.
 
 ## Interpretability (SHAP)
