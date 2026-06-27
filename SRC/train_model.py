@@ -8,14 +8,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, confusion_matrix
 from xgboost import XGBClassifier
 
-dataset = pd.read_csv("../data/processed_dataset.csv")
+
+dataset = pd.read_csv("../data/processed_dataset.csv", index_col=0)
 
 X = dataset.iloc[:,:-1]
 y = dataset.iloc[:,-1]
 
 y = y.replace({"Resistant" : 1, "Susceptible": 0}).astype(int)
-
-
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,
@@ -57,15 +56,19 @@ metrics = {
     "accuracy": accuracy_score(y_test, y_pred),
     "f1": f1_score(y_test, y_pred),
     "auc": roc_auc_score(y_test, y_pred_proba),
-    "confusion_matrix": confusion_matrix(y_test, y_pred).tolist()
+    "confusion_matrix": confusion_matrix(y_test, y_pred).tolist(),
+    "num_genomes" : len(y)
 }
 print(metrics)
 
 # SHAP explainer
 explainer = shap.TreeExplainer(xgboost_model)
 
+# Get list of features
+feature_list = X_train.columns.tolist()
+
 # Save everything Streamlit will need
 joblib.dump(xgboost_model, '../models/xgboost_model.pkl')
-joblib.dump(X_train.columns.tolist(), '../models/feature_columns.pkl')
+joblib.dump(feature_list, '../models/feature_columns.pkl')
 joblib.dump(explainer, '../models/shap_explainer.pkl')
 joblib.dump(metrics, '../models/metrics.pkl')
