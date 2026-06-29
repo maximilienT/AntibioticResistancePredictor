@@ -68,7 +68,7 @@ explainer = shap.TreeExplainer(xgboost_model)
 feature_list = X_train.columns.tolist()
 
 # Save everything Streamlit will need
-joblib.dump(xgboost_model, '../models/xgboost_model.pkl')
-joblib.dump(feature_list, '../models/feature_columns.pkl')
-joblib.dump(explainer, '../models/shap_explainer.pkl')
-joblib.dump(metrics, '../models/metrics.pkl')
+joblib.dump(xgboost_model, '../Models/xgboost_model.pkl')
+joblib.dump(feature_list, '../Models/feature_columns.pkl')
+joblib.dump(explainer, '../Models/shap_explainer.pkl')
+joblib.dump(metrics, '../Models/metrics.pkl')
