@@ -67,6 +67,10 @@ This genome originates from a real clinical surveillance dataset: a 2019 study b
 
 This points to a genuine limitation of gene-presence-based prediction: it can only detect resistance mechanisms that have already been catalogued. Possible explanations include an unannotated SCCmec variant, a point mutation in an existing gene rather than acquisition of a new one, or an assembly/annotation gap specific to this isolate. Rather than a model failure, this is the model correctly reporting "no known resistance mechanism detected".
 
+## Live Dashboard
+
+An interactive Streamlit dashboard is available for exploring model predictions and SHAP explanations on individual genomes: **[Live Dashboard]([your-streamlit-url-here](https://maximilient-antibioticresistancepredictor-streamlit-file-zw6cbu.streamlit.app/))**
+
 ## Key Takeaways
 
 - A gene presence/absence feature set, combined with a simple model, can predict methicillin resistance with high accuracy (94.5%, AUC 0.984) because the underlying biology is strongly deterministic.
@@ -84,4 +88,3 @@ This points to a genuine limitation of gene-presence-based prediction: it can on
 
 - Extend to other antibiotics (vancomycin, ciprofloxacin) tested in the same dataset
 - Incorporate k-mer-based sequence features as a reference-free alternative to gene annotation, to capture resistance mechanisms missed by curated gene panels
-- Build an interactive dashboard (Streamlit) for exploring predictions and SHAP explanations on new genomes
