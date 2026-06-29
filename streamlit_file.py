@@ -5,16 +5,16 @@ import shap
 import matplotlib.pyplot as plt
 
 # Load in information app needs to run
-model = joblib.load("models/xgboost_model.pkl")
-feature_columns = joblib.load("models/feature_columns.pkl")
-explainer = joblib.load("models/shap_explainer.pkl")
-metrics = joblib.load("models/metrics.pkl")
+model = joblib.load("Models/xgboost_model.pkl")
+feature_columns = joblib.load("Models/feature_columns.pkl")
+explainer = joblib.load("Models/shap_explainer.pkl")
+metrics = joblib.load("Models/metrics.pkl")
 
 # UI
 
 st.title("S. Aureus Bacterial Resistance Predictor")
 
-st.subheader("model Performance")
+st.subheader("Model Performance")
 
 col1, col2, col3, col4 = st.columns(4)
 
