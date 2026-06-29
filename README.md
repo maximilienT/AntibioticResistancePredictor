@@ -69,7 +69,7 @@ This points to a genuine limitation of gene-presence-based prediction: it can on
 
 ## Live Dashboard
 
-An interactive Streamlit dashboard is available for exploring model predictions and SHAP explanations on individual genomes: **[Live Dashboard]([your-streamlit-url-here](https://maximilient-antibioticresistancepredictor-streamlit-file-zw6cbu.streamlit.app/))**
+An interactive Streamlit dashboard is available for exploring model predictions and SHAP explanations on individual genomes: **[Live Dashboard](https://maximilient-antibioticresistancepredictor-streamlit-file-zw6cbu.streamlit.app/)**
 
 ## Key Takeaways
 
