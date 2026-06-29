@@ -87,7 +87,7 @@
       <workItem from="1781205572702" duration="26060000" />
       <workItem from="1782509152312" duration="3489000" />
       <workItem from="1782513468885" duration="8294000" />
-      <workItem from="1782696133072" duration="1089000" />
+      <workItem from="1782696133072" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -241,7 +241,39 @@
       <option name="project" value="LOCAL" />
       <updated>1782697084842</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Streamlit functioning as intended 06262026">
+      <option name="closed" value="true" />
+      <created>1782697234454</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1782697234454</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Streamlit functioning as intended 06262026">
+      <option name="closed" value="true" />
+      <created>1782697323337</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1782697323337</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Streamlit functioning as intended 06262026">
+      <option name="closed" value="true" />
+      <created>1782697376932</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1782697376932</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Streamlit functioning as intended 06262026">
+      <option name="closed" value="true" />
+      <created>1782697524596</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1782697524596</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +307,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$streamlit_test.coverage" NAME="streamlit_test Coverage Results" MODIFIED="1782513654740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$main.coverage" NAME="main Coverage Results" MODIFIED="1781207340402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1782521781722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SRC" />
+    <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1782697310784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SRC" />
     <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$streamlit_file.coverage" NAME="streamlit_file Coverage Results" MODIFIED="1782696147334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AntibioticResistancePredictor$data_pipeline.coverage" NAME="data_pipeline Coverage Results" MODIFIED="1782517637528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SRC" />
   </component>

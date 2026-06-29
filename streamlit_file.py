@@ -12,7 +12,7 @@ metrics = joblib.load("Models/metrics.pkl")
 
 # UI
 
-st.title("S. Aureus Bacterial Resistance Predictor")
+st.title("S. Aureus Methicillin Resistance Predictor")
 
 st.subheader("Model Performance")
 
